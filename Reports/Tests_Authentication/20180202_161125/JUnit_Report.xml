@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests_Authentication" time="1" tests="0" failures="1" errors="0">
+   <testsuite name="Tests_Authentication" tests="0" failures="1" errors="0" time="1" timestamp="2018-02-02 16:11:28" hostname="aekachaiboonruang - pondthaitay.local" id="Test Suites/Tests_Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/aekachaiboonruang/Desktop/RIderr-Automated test/Api/Reports/Tests_Authentication/20180202_161125"/>
+         <property name="logFiles" value="/Users/aekachaiboonruang/Desktop/RIderr-Automated test/Api/Reports/Tests_Authentication/20180202_161125/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aekachaiboonruang - pondthaitay.local"/>
+         <property name="hostAddress" value="169.254.217.157"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Register/register successful case" classname="Test Cases/Register/register successful case" status="FAILED">
+         <failure type="FAILED" message="Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&amp;email=a4%40gmail.com&amp;password=123456&amp;password_confirmation=123456&amp;g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&amp;profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&amp;newsletter=1&amp;lang=en)"/>
+         <system-out><![CDATA[2018-02-02 16:11:28 - [TEST_CASE][FAILED] - Test Cases/Register/register successful case: Test Cases/Register/register successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)
+
+2018-02-02 16:11:29 - [TEST_STEP][FAILED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/register)): Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)
+
+2018-02-02 16:11:29 - [MESSAGE][FAILED] - Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)
+
+2018-02-02 16:11:29 - [TEST_STEP][FAILED] - verifyResponseStatusCode: Unable to verify response status code (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-02 16:11:29 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-02 16:11:29 - [TEST_STEP][FAILED] - verifyElementPropertyValue: Unable to verify element property value (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-02 16:11:29 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-02 16:11:29 - [TEST_STEP][PASSED] - Statement - assert response.getResponseText().contains(""data":{"message":["Success to register"]}"): null]]></system-out>
+         <system-err><![CDATA[2018-02-02 16:11:28 - [TEST_CASE][FAILED] - Test Cases/Register/register successful case: Test Cases/Register/register successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-02 16:11:28 - [TEST_SUITE][FAILED] - Tests_Authentication: Test Cases/Register/register successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)]]></system-out>
+      <system-err><![CDATA[2018-02-02 16:11:28 - [TEST_SUITE][FAILED] - Tests_Authentication: Test Cases/Register/register successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 400 for URL: http://apiriderr.20scoopscnx.com/api/register?display_name=Katalon+Testing&email=a4%40gmail.com&password=123456&password_confirmation=123456&g_recaptcha_response=LUoOhpwUbIe5sfgwsotJ2nDXx99jvflG&profile_image=https%3A%2F%2Friderr-dev.s3.amazonaws.com%2Fexpert%2Fprofile%2Foriginal%2F1516162329_CfV9T9p8KpiH.jpg&newsletter=1&lang=en)]]></system-err>
+   </testsuite>
+</testsuites>

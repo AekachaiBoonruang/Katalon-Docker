@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>register successful case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c659569c-0d79-4f3e-bf89-1b7e4d242fa0</testCaseGuid>
+   <variable>
+      <defaultValue>'ake10@gmail.com'</defaultValue>
+      <description></description>
+      <id>0c6bc8a4-9c8a-46d5-be2d-6669f71c6824</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>0ce15f0e-f41a-4cd7-b470-de1b07c66f03</id>
+      <masked>false</masked>
+      <name>Passowrd</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Tests_Authentication,,,2018-02-14 12:10:27,2018-02-14 12:10:29,2.473s,FAILED
+,,,,,,
+Test Cases/Register/register successful case,,,2018-02-14 12:10:27,2018-02-14 12:10:29,1.590s,FAILED
+Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/register)),,,2018-02-14 12:10:28,2018-02-14 12:10:29,1.118s,FAILED
+Statement - jsonSlurper = new groovy.json.JsonSlurper(),,,2018-02-14 12:10:29,2018-02-14 12:10:29,0.003s,PASSED
+Statement - res = jsonSlurper.parseText(response.getResponseText()),,,2018-02-14 12:10:29,2018-02-14 12:10:29,0.004s,PASSED

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests_Authentication" time="3" tests="0" failures="1" errors="0">
+   <testsuite name="Tests_Authentication" tests="0" failures="1" errors="0" time="3" timestamp="2018-02-20 22:50:45" hostname="aekachaiboonruang - pondthaitay.local" id="Test Suites/Tests_Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/aekachaiboonruang/Desktop/Riderr-Automated test/Api/Reports/Tests_Authentication/20180220_225031"/>
+         <property name="logFiles" value="/Users/aekachaiboonruang/Desktop/Riderr-Automated test/Api/Reports/Tests_Authentication/20180220_225031/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aekachaiboonruang - pondthaitay.local"/>
+         <property name="hostAddress" value="169.254.125.57"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Register/Login successful case" classname="Test Cases/Register/Login successful case" status="FAILED">
+         <failure type="FAILED" message="Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)"/>
+         <system-out><![CDATA[2018-02-20 22:50:46 - [TEST_CASE][FAILED] - Test Cases/Register/Login successful case: Test Cases/Register/Login successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)
+
+2018-02-20 22:50:46 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-02-20 22:50:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-02-20 22:50:46 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-02-20 22:50:46 - [TEST_STEP][FAILED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/Login)): Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)
+
+2018-02-20 22:50:48 - [MESSAGE][FAILED] - Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)
+
+2018-02-20 22:50:48 - [TEST_STEP][FAILED] - verifyResponseStatusCode: Unable to verify response status code (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-20 22:50:48 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-20 22:50:48 - [TEST_STEP][FAILED] - verifyElementPropertyValue: Unable to verify element property value (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-20 22:50:48 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: java.lang.IllegalArgumentException: Response object is null)
+
+2018-02-20 22:50:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-02-20 22:50:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-02-20 22:50:48 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-02-20 22:50:46 - [TEST_CASE][FAILED] - Test Cases/Register/Login successful case: Test Cases/Register/Login successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 22:50:45 - [TEST_SUITE][FAILED] - Tests_Authentication: Test Cases/Register/Login successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)]]></system-out>
+      <system-err><![CDATA[2018-02-20 22:50:45 - [TEST_SUITE][FAILED] - Tests_Authentication: Test Cases/Register/Login successful case FAILED because (of) Unable to send request (Root cause: java.io.IOException: Server returned HTTP response code: 401 for URL: http://apiriderr.20scoopscnx.com/api/login-email)]]></system-err>
+   </testsuite>
+</testsuites>

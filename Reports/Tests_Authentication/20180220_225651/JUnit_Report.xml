@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests_Authentication" time="1" tests="1" failures="0" errors="0">
+   <testsuite name="Tests_Authentication" tests="1" failures="0" errors="0" time="1" timestamp="2018-02-20 22:56:53" hostname="aekachaiboonruang - pondthaitay.local" id="Test Suites/Tests_Authentication">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/aekachaiboonruang/Desktop/Riderr-Automated test/Api/Reports/Tests_Authentication/20180220_225651"/>
+         <property name="logFiles" value="/Users/aekachaiboonruang/Desktop/Riderr-Automated test/Api/Reports/Tests_Authentication/20180220_225651/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aekachaiboonruang - pondthaitay.local"/>
+         <property name="hostAddress" value="169.254.125.57"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Register/Login successful case" classname="Test Cases/Register/Login successful case" status="PASSED">
+         <system-out><![CDATA[2018-02-20 22:56:53 - [TEST_CASE][PASSED] - Test Cases/Register/Login successful case: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-02-20 22:56:53 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-02-20 22:56:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-02-20 22:56:53 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseVariables()): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'NewTestListener.sampleBeforeTestCase(...)' completed.
+
+2018-02-20 22:56:53 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/Login)): Send request successfully
+
+2018-02-20 22:56:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-02-20 22:56:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-02-20 22:56:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2018-02-20 22:56:54 - [TEST_STEP][PASSED] - verifyElementPropertyValue: Verify element property value successfully
+
+2018-02-20 22:56:54 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2018-02-20 22:56:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.
+
+2018-02-20 22:56:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseId()): null
+
+2018-02-20 22:56:54 - [TEST_STEP][PASSED] - Statement - println(testCaseContext.getTestCaseStatus()): Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-02-20 22:56:53 - [TEST_SUITE][PASSED] - Tests_Authentication: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'NewTestListener.sampleAfterTestCase(...)' completed.]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
