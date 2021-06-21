@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-Tests_Authentication,,,2018-02-20 22:56:53,2018-02-20 22:56:54,1.603s,PASSED
-,,,,,,
-Test Cases/Register/Login successful case,,,2018-02-20 22:56:53,2018-02-20 22:56:54,1.055s,PASSED
-Start listener action : sampleBeforeTestCase,,,2018-02-20 22:56:53,2018-02-20 22:56:53,0.011s,PASSED
-Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Login/Login)),,,2018-02-20 22:56:53,2018-02-20 22:56:54,0.841s,PASSED
-verifyResponseStatusCode,,,2018-02-20 22:56:54,2018-02-20 22:56:54,0.007s,PASSED
-verifyElementPropertyValue,,,2018-02-20 22:56:54,2018-02-20 22:56:54,0.034s,PASSED
-Start listener action : sampleAfterTestCase,,,2018-02-20 22:56:54,2018-02-20 22:56:54,0.004s,PASSED
